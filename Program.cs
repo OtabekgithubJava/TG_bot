@@ -42,6 +42,8 @@ class Program
         Console.WriteLine("Data: " + year + "/" + month + "/" + day);
         Console.WriteLine("Time: " + hour + "/" + minute + "/" + second);
 
+        // moshniy
+
         using var cts = new CancellationTokenSource();
 
         botClient.StartReceiving(
